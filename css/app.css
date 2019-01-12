@@ -1,6 +1,9 @@
 header{
 	height: 150px;
 	background-color: #7A1426;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 @font-face {
@@ -42,6 +45,7 @@ header nav{
 
 .hover-underline-menu .menu .underline-from-center::after {
   content: "";
+  background-color: #fff;
   position: absolute;
   top: calc(100% - 0.125rem);
   border-bottom: 0.125rem solid #fefefe;
@@ -56,90 +60,31 @@ header nav{
   transition: all 0.5s ease;
 }
 
+/*section p{
+	padding-top: 180px;
+}*/
 
-
-
-
-
-/*
-
-.overlay-nav-menu-toggle {
-  position: relative;
-  font-size: 4rem;
-  z-index: 5000;
-  color: #0a0a0a;
-  top: -0.5rem;
-  left: 1.5rem;
-  transition: all 0.4s ease-in-out;
-}
-
-.overlay-nav-menu-toggle:hover {
-  transition: all 0.4s ease-in-out;
-  color: #575757;
-}
-
-.overlay-nav-menu {
-  position: absolute;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  margin: 0;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  opacity: 0;
-  list-style: none;
-  background: #1779ba;
-  background-size: cover;
-  text-align: center;
-  -webkit-transform: translateX(-100%) rotateX(40deg);
-          transform: translateX(-100%) rotateX(40deg);
-  transition: all 400ms cubic-bezier(1, -0.4, 0.44, 0.985);
-}
-
-.overlay-nav-menu li {
-  font-size: 1.5rem;
-}
-
-.overlay-nav-menu a {
-  display: block;
-  color: #fefefe;
-  font-weight: bold;
-  height: 6.25rem;
-  line-height: 6.25rem;
-  border-bottom: 1px solid rgba(254, 254, 254, 0.5);
-  text-decoration: none;
-}
-
-.overlay-nav-menu a:hover {
-  background-color: rgba(254, 254, 254, 0.6);
-  color: #0a0a0a;
-}
-
-.overlay-nav-menu.is-open {
-  top: 0;
-  opacity: 1;
-  -webkit-transform: perspective(200px) translateX(0) rotateX(0);
-          transform: perspective(200px) translateX(0) rotateX(0);
-}
-
-.overlay-nav-menu.is-open ~ .overlay-nav-menu-toggle {
-  display: inline-block;
-  transition: all 0.4s ease-in-out;
-  -webkit-transform: rotate(135deg);
-      -ms-transform: rotate(135deg);
-          transform: rotate(135deg);
-  color: white;
+.shrink{
+	height: 50px;
+	font-size: 2.5rem;
+	text-align: left;
+	padding-left: 20px;
 }
 
 
-*/
+.about-1, .about-2, .about-3{
+	padding: 200px 25px 25px 25px;
+}
+.about-4, .about-5, .about-6{
+	padding: 25px 25px 25px 25px;
+}
+
+span{
+	color: red;
+}
+
+.about-1 h3, .about-2 h3, .about-3 h3, .about-4 h3, .about-5 h3, .about-6 h3{
+	text-align: center;
+	font-family: 'futura', sans-serif;
+	
+}

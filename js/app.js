@@ -2,7 +2,48 @@ $(document).foundation()
 
 $("[data-menu-underline-from-center] a").addClass("underline-from-center");
 
-// $('[data-toggle-menu]').on("click", function(){
-//   $("#overlay-nav-menu").toggleClass("is-open");
+// $(function() {
+//   $(window).scroll(function() {
+//     var winTop = $(window).scrollTop();
+//     if (winTop >= 30) {
+//       $("header").addClass("shrink");
+//     } else{
+//       $("header").removeClass("shrink");
+//     }
+//   });
 // });
 
+
+$(function() {
+  $(window).scroll(function() {
+    var winTop = $(window).scrollTop();
+    if (winTop >= 30) {
+      	var element = document.getElementById("image2");
+
+		element.scrollIntoView(top);
+		
+    } else{
+      	
+
+    }
+  });
+});
+
+
+
+
+
+$(function() {
+  $(window).scroll(function() {
+    var winBot = $(window).scrollTop();
+    if (winBot <= 30) {
+      	var element = document.getElementById("image1");
+
+		element.scrollIntoView(top);
+		
+    } else{
+      	
+
+    }
+  });
+});
