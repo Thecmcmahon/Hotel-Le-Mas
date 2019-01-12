@@ -66,11 +66,16 @@ header nav{
 
 .shrink{
 	height: 50px;
-	font-size: 2.5rem;
-	text-align: left;
-	padding-left: 20px;
+	font-size: 1rem;
+	
+	
 }
-
+.shrink2{
+	font-size: 2rem;
+	margin-bottom: 0;
+	padding-top: 5px;
+	
+}
 
 .about-1, .about-2, .about-3{
 	padding: 200px 25px 25px 25px;
