@@ -10,6 +10,7 @@ header{
 	top: 0;
 	width: 100%;
 	padding-top: 10px;
+	transition: all ease-out .25s;
 }
 
 header img{
@@ -32,6 +33,7 @@ header h1{
 	color: #fff;
 	text-align: center;
 	font-size: 5rem;
+	transition: all ease-out .25s;
 	
 }
 header h2{
@@ -44,6 +46,7 @@ header h2{
 }
 header nav{
 	font-family: 'futura', sans-serif;
+	transition: all ease-out .25s;
 }
 
 .hover-underline-menu {
@@ -95,6 +98,7 @@ header nav{
 .shrink{
 	height: 60px;
 	font-size: 1rem;
+	transition: all ease-out .25s;
 	
 	
 }
@@ -102,6 +106,7 @@ header nav{
 	font-size: 2rem;
 	margin-bottom: 0;
 	padding-top: 5px;
+	transition: all ease-out .25s;
 	
 }
 
@@ -110,6 +115,7 @@ header nav{
 	height: auto;
 	margin-top: 0;
 	padding-top: 10px;
+	transition: all ease-out .25s;
 }
 
 .about-1, .about-2, .about-3{
@@ -129,6 +135,16 @@ span{
 	
 }
 
+.map{
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px; 
+}
+
+.contact{
+	padding: 25px;
+	padding-top: 0;
+}
 
 
 footer{
