@@ -4,11 +4,18 @@ body{
 }
 
 header{
-	height: 150px;
+	height: 140px;
 	background-color: #7A1426;
 	position: fixed;
 	top: 0;
 	width: 100%;
+	padding-top: 10px;
+}
+
+header img{
+	width: 125px;
+	height: auto;
+	margin-top: 10px;
 }
 
 @font-face {
@@ -86,7 +93,7 @@ header nav{
 }
 
 .shrink{
-	height: 50px;
+	height: 60px;
 	font-size: 1rem;
 	
 	
@@ -96,6 +103,13 @@ header nav{
 	margin-bottom: 0;
 	padding-top: 5px;
 	
+}
+
+.shrink3{
+	width: 50px;
+	height: auto;
+	margin-top: 0;
+	padding-top: 10px;
 }
 
 .about-1, .about-2, .about-3{
@@ -132,4 +146,14 @@ footer p{
 }
 
 
-
+@media only screen and (max-width: 640px) {
+	.about-2, .about-3{
+	padding: 25px 25px 25px 25px;
+}
+.about-1{
+	padding: 225px 25px 25px 25px;
+}
+	.about-4, .about-5, .about-6{
+	padding: 25px 25px 50px 25px;
+}
+}

@@ -8,9 +8,11 @@ $(function() {
     if (winTop >= 30) {
       $("header").addClass("shrink");
       $("header h1").addClass("shrink2");
+      $("header img").addClass("shrink3");
     } else{
       $("header").removeClass("shrink");
       $("header h1").removeClass("shrink2");
+      $("header img").removeClass("shrink3");
     }
   });
 });
