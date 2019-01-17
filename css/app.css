@@ -201,7 +201,9 @@ label{
 
 
 
-
+.links{
+	display: none;
+}
 
 
 footer{
