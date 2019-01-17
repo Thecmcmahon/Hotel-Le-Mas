@@ -174,7 +174,30 @@ label{
 	border-color: #7A1426;
 }
 
+.orbit{
+	z-index: -4;
+}
+.subhead{
+	margin: 300px 25px 25px 25px;
+	z-index: -4;
+}
 
+.fullscreen-image-slider .orbit-image {
+  
+  width: 100%;
+  height: 300px;
+}
+
+.fullscreen-image-slider .orbit-caption {
+  bottom: 50%;
+  -webkit-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+          transform: translateY(50%);
+  background: none;
+  text-align: center;
+  color: #fefefe;
+  font-weight: bold;
+}
 
 
 
