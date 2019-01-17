@@ -231,4 +231,12 @@ footer p{
 		.about-4, .about-5, .about-6{
 		padding: 25px 25px 50px 25px;
 	}
+
+	.orbit{
+	z-index: -4;
+	}
+	.subhead{
+	margin: 600px 25px 25px 25px;
+	z-index: -4;
+	}
 }
