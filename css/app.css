@@ -225,13 +225,13 @@ footer p{
 
 @media only screen and (max-width: 640px) {
 	.about-2, .about-3{
-		padding: 25px 25px 25px 25px;
+		padding: 225px 25px 25px 25px;
 	}
 	.about-1{
 		padding: 225px 25px 25px 25px;
 	}
 		.about-4, .about-5, .about-6{
-		padding: 25px 25px 50px 25px;
+		padding: 225px 25px 50px 25px;
 	}
 
 	.orbit{
@@ -241,4 +241,5 @@ footer p{
 	margin: 300px 25px 25px 25px;
 	z-index: -4;
 	}
+
 }
