@@ -1,7 +1,7 @@
 
 $(document).foundation()
   
-  $(function(){
+  $(function myFunctionSmall(){
     if( $(window).width() <= 640 ) {
         console.log("the width is" + $(window).width());
         $.scrollify({

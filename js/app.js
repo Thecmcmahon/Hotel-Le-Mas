@@ -17,7 +17,41 @@ $(function() {
   });
 });
 
+$(function myFunction1() {
 if ($(window).width() <= 640){
-  document.write('<script src="js/test.js"></script>');
-  //$('body').append('<script src="js/test.js"></script>"');
+  //document.write('<script src="js/smallscroll.js"></script>"');
+  $.getScript('smallscroll.js', function () {          
+      myFunctionSmall();  
+  });
+  console.log("1 small");
+} else if ($(window).width() >= 641) {
+  //document.write('<script src="js/bigscroll.js"></script>"');
+  $.getScript('bigscroll.js', function () {          
+      myFunctionBig();  
+  });
+  console.log("1 big");
+
 }
+});
+
+        
+
+
+
+
+
+// $(window).resize(function() {
+
+//   if ($(window).width() <= 640){
+//   $('.smallscripts').append('<script src="js/smallscroll.js"></script>');
+//   $('.bigscripts').empty();
+//   console.log("2 small")
+
+// } else if ($(window).width() >= 641) {
+//   $('.bigscripts').append('<script src="js/bigscroll.js"></script>');
+//   $('.smallscripts').empty();
+//   console.log("2 big")
+
+// }
+
+// });
