@@ -17,56 +17,7 @@ $(function() {
   });
 });
 
-
-// $(function(){
-//   if ( $(window).width() < 641){
-// $.scrollify({
-//     section : ".spacing",
-//     sectionName : "section-name",
-//     interstitialSection : "",
-//     easing: "easeOutExpo",
-//     scrollSpeed: 1000,
-//     offset : 0,
-//     scrollbars: true,
-//     standardScrollElements: "",
-//     setHeights: false,
-//     overflowScroll: true,
-//     updateHash: true,
-//     touchScroll:true,
-//     before:function() {},
-//     after:function() {},
-//     afterResize:function() {},
-//     afterRender:function() {}
-//   });
-//   } else{
-//     console.log("big screen");
-//   }
-// });
-$(window).resize(function() {
-    if( $(this).width() <= 640 ) {
-        console.log("the width is" + $(window).width());
-        $.scrollify({
-    section : ".spacing",
-    sectionName : "section-name",
-    interstitialSection : "",
-    easing: "easeOutExpo",
-    scrollSpeed: 1000,
-    offset : 0,
-    scrollbars: true,
-    standardScrollElements: "",
-    setHeights: false,
-    overflowScroll: true,
-    updateHash: true,
-    touchScroll:true,
-    before:function() {},
-    after:function() {},
-    afterResize:function() {},
-    afterRender:function() {}
-  });
-  } else{
-    console.log("big screen");
-  }
-});
-        
-
-
+if ($(window).width() <= 640){
+  document.write('<script src="js/test.js"></script>');
+  //$('body').append('<script src="js/test.js"></script>"');
+}
