@@ -18,45 +18,55 @@ $(function() {
 });
 
 
-// $(function() {
-//   $(window).scroll(function() {
-//     var winTop2 = $(window).scrollTop();
-//     if (winTop2 >= 100 &  120) {
-//       	// var element = document.getElementById("foot");
-//         document.getElementById("goto1").click();
-// 		//element.scrollIntoView(top);
-		
-//     } 
-
-//     if (winTop2 >= 250 & <=300) {
-      
-//        document.getElementById("goto2").click();
-      	
-
-//   };
-  
-// });
-// });
-// window.onscroll = function() {myFunction()};
-
-// function myFunction() {
-//   if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-//     document.getElementById("goto2").click();
-//     //console.log("goto2");
-
-//   }
-// }
-
-
-
-
-// $(document).ready(function(){
-//   var x = 0;
-//   $("body").scroll(function(){
-//     $(console.log( x+= 1);
+// $(function(){
+//   if ( $(window).width() < 641){
+// $.scrollify({
+//     section : ".spacing",
+//     sectionName : "section-name",
+//     interstitialSection : "",
+//     easing: "easeOutExpo",
+//     scrollSpeed: 1000,
+//     offset : 0,
+//     scrollbars: true,
+//     standardScrollElements: "",
+//     setHeights: false,
+//     overflowScroll: true,
+//     updateHash: true,
+//     touchScroll:true,
+//     before:function() {},
+//     after:function() {},
+//     afterResize:function() {},
+//     afterRender:function() {}
 //   });
+//   } else{
+//     console.log("big screen");
+//   }
 // });
-
-
+$(window).resize(function() {
+    if( $(this).width() <= 640 ) {
+        console.log("the width is" + $(window).width());
+        $.scrollify({
+    section : ".spacing",
+    sectionName : "section-name",
+    interstitialSection : "",
+    easing: "easeOutExpo",
+    scrollSpeed: 1000,
+    offset : 0,
+    scrollbars: true,
+    standardScrollElements: "",
+    setHeights: false,
+    overflowScroll: true,
+    updateHash: true,
+    touchScroll:true,
+    before:function() {},
+    after:function() {},
+    afterResize:function() {},
+    afterRender:function() {}
+  });
+  } else{
+    console.log("big screen");
+  }
+});
+        
 
 
