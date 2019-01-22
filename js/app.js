@@ -17,22 +17,22 @@ $(function() {
   });
 });
 
-$(function myFunction1() {
-if ($(window).width() <= 640){
-  //document.write('<script src="js/smallscroll.js"></script>"');
-  $.getScript('smallscroll.js', function () {          
-      myFunctionSmall();  
-  });
-  console.log("1 small");
-} else if ($(window).width() >= 641) {
-  //document.write('<script src="js/bigscroll.js"></script>"');
-  $.getScript('bigscroll.js', function () {          
-      myFunctionBig();  
-  });
-  console.log("1 big");
+// $(function myFunction1() {
+// if ($(window).width() <= 640){
+//   //document.write('<script src="js/smallscroll.js"></script>"');
+//   $.getScript('smallscroll.js', function () {          
+//       myFunctionSmall();  
+//   });
+//   console.log("1 small");
+// } else if ($(window).width() >= 641) {
+//   //document.write('<script src="js/bigscroll.js"></script>"');
+//   $.getScript('bigscroll.js', function () {          
+//       myFunctionBig();  
+//   });
+//   console.log("1 big");
 
-}
-});
+// }
+// });
 
         
 
