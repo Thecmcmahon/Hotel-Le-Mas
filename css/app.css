@@ -178,10 +178,17 @@ label{
 	z-index: -4;
 }
 
-.subhead{
+.subhead-beach{
 	margin: 300px 25px 25px 25px;
 }
 
+.beach-1, .beach-2, .beach-3{
+	padding: 25px;
+}
+
+.beach-3{
+	text-align: center;
+}
 
 
 .adventure-1, .adventure-2, .adventure-3, .adventure-4, .adventure-5, .adventure-6{
