@@ -204,6 +204,18 @@ label{
 	padding-top: 225px;
 }
 
+.beach-1 p, .beach-2 p, .adventure-3 p, .adventure-4 p, .adventure-5 p, .adventure-6 p{
+	text-align: left;
+}
+
+.beach-1 h3, .beach-2 h3 {
+	text-align: center;
+}
+
+#top{
+	position: absolute;
+	top: -50px;
+}
 
 .links{
 	display: none;
