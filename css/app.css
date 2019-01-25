@@ -183,11 +183,13 @@ label{
 }
 
 .subhead-home{
-	margin: 175px 0px 25px 0px;
+	margin: 170px 0px 25px 0px;
 
 }
 
-.subhead-home li{
+
+
+.subhead-home li, .slider-2 li{
 	height: 400px; 
 }
 
