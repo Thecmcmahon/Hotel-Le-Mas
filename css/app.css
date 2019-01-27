@@ -240,6 +240,14 @@ a:hover{
 	color: #7A1426;
 }
 
+.about-links:hover{
+	color: #7A1426;
+}
+
+.about-links{
+	text-decoration: underline;
+}
+
 .button:hover{
 	background-color: #E8E8E8;
 	color: #7A1426;
