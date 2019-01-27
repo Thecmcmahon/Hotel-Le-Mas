@@ -262,6 +262,17 @@ a:hover{
 	font-family: 'futura', sans-serif;
 }
 
+.quote p{
+	margin: 25px;
+	font-family: 'futura', sans-serif;
+	font-size: 1.75rem;
+}
+
+.p2{
+	text-align: right;
+}
+
+
 footer{
 	background-color: #7A1426;
 	text-align: center;
@@ -297,6 +308,18 @@ footer p{
 
 	.adventure-2, .adventure-1{
 		padding-top: 25px;
+	}
+
+	.home h2{
+		font-size: 2.5rem;
+	}
+
+	.quote p{
+		
+
+	}
+	.slider-2 li{
+		height: 600px;
 	}
 
 }
