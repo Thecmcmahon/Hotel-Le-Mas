@@ -368,4 +368,8 @@ footer p{
 		margin-bottom: 25px;
 	}
 
+	select{
+		margin-left: 0;
+	}
+
 }
