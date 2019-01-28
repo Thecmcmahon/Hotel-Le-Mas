@@ -361,7 +361,11 @@ footer p{
 
 	}
 	.slider-2 li{
-		height: 600px;
+		height: 625px;
+	}
+
+	.slider-2{
+		margin-bottom: 25px;
 	}
 
 }
