@@ -158,6 +158,23 @@ label{
 
 .divbutton{
 	text-align: center;
+
+}
+.formb{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.formbutton{
+	margin-bottom: 25px; 
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	padding: 10px 15px;
+	background-color: #7A1426;
+	color: #fff;
+	border-radius: 10px;
+	font-family: 'futura', sans-serif;
+	border-color: #7A1426;
 }
 
 .button{
@@ -252,7 +269,10 @@ a:hover{
 	background-color: #E8E8E8;
 	color: #7A1426;
 }
-
+.formbutton:hover{
+	background-color: #E8E8E8;
+	color: #7A1426;
+}
 
 .home h2{
 	text-align: center;
@@ -279,6 +299,20 @@ a:hover{
 .p2{
 	text-align: right;
 }
+
+form p{
+	text-align: center;
+}
+select{
+	max-width: 400px;
+	margin-left: 25%;
+}
+
+.form2 p{
+	max-width: 400px;
+}
+
+
 
 
 footer{
