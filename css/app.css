@@ -29,6 +29,36 @@ src: url("..//fonts/savoye.ttf");
 	font-family: "futura";
 	src: url("..//fonts/FuturaStd-Light.otf");
 }
+
+.slide_1{
+	background-image: url(..//img/beach1.jpg);
+
+}
+.slide_2{
+	background-image: url(..//img/tourslemas.jpg);
+}
+.slide_3{
+	background-image: url(..//img/mountain1.jpg);
+}
+.slide_4{
+	background-image: url(..//img/outside.jpg);
+}
+.slide_5{
+	background-image: url(..//img/hiking.jpg);
+}
+.slide_6{
+	background-image: url(..//img/spa.jpg);
+}
+
+.slide_1, .slide_2, .slide_3, .slide_4, .slide_5, .slide_6{
+	height: 300px;
+	width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+
 header h1{
 	font-family: 'savoye', serif;
 	color: #fff;
@@ -46,6 +76,20 @@ header h2{
 	font-family: 'savoye', serif;
 	background-color: #E8E8E8;
 	padding-top: 8px;
+
+
+}
+
+.bread a{
+	margin-top: -120px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+
+}
+
+header .bread{
+	
+
 }
 header nav{
 	font-family: 'futura', sans-serif;
@@ -265,6 +309,10 @@ a:hover{
 	text-decoration: underline;
 }
 
+.button:focus{
+	background-color: #7A1426;
+}
+
 .button:hover{
 	background-color: #E8E8E8;
 	color: #7A1426;
@@ -308,10 +356,21 @@ select{
 	
 }
 
+.backbutton{
+	margin-left: 2.5%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+}
+
 .form2 p{
 	max-width: 400px;
 }
 
+.formb button{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
 
 
 
@@ -329,6 +388,29 @@ footer{
 
 footer p{
 	margin: 0;
+}
+
+#Modal{
+	background-color: #7A1426;
+	color: #E8E8E8;
+}
+
+.reveal h1{
+	text-align: center;
+	font-family: 'savoye', serif;
+}
+
+.reveal p{
+	text-align: center;
+	font-family: 'futura', sans-serif;
+}
+
+.reveal p{
+
+}
+
+.close-button span{
+	color: #E8E8E8;
 }
 
 
