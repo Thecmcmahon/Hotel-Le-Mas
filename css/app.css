@@ -86,10 +86,22 @@ header h2{
 	border-top-right-radius: 0;
 
 }
+footer a{
+	color: #e8e8e8;
+}
 
-header .bread{
-	
 
+footer a:hover{
+	color: #e8e8e8;
+	text-decoration: underline;
+}
+
+footer li{
+	list-style: none;
+}
+
+footer ul{
+	margin-left: 0;
 }
 header nav{
 	font-family: 'futura', sans-serif;
@@ -387,7 +399,7 @@ footer{
 }
 
 footer p{
-	margin: 0;
+	margin: 0 0 16px 0;
 }
 
 #Modal{
@@ -412,6 +424,10 @@ footer p{
 .close-button span{
 	color: #E8E8E8;
 }
+
+.divbutton .backbutton{
+	display: hidden;
+	}
 
 
 @media only screen and (max-width: 640px) {
@@ -453,5 +469,27 @@ footer p{
 	select{
 		margin-left: 0;
 	}
+
+	.bread a{
+		/*position: fixed;
+		bottom: 0;
+		left: 0;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;*/
+		display: none;
+
+	}
+
+	.divbutton .backbutton{
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		margin-left: 0;
+		display: inline-block;
+	}
+
 
 }
